@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Todo} from "./core/models/todo.model";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-project';
+
+  constructor(
+  ) {
+  }
+
+  clickButtonAction($event) {
+
+  }
 }
