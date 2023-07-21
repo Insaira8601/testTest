@@ -1,0 +1,11 @@
+.gap 
+{
+    margin: 5px;
+}
+
+flexcontainer
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
